@@ -8,7 +8,7 @@ Nix-native packaging for the [OpenVox](https://github.com/OpenVoxProject/openvox
 2. **AIO build shells:** let upstream developers build official AIO artifacts using Nix tooling.
 3. **Ecosystem:** OpenBolt, OpenVox Server, OpenVoxDB, and Jig.
 
-The initial platforms are **aarch64-darwin** and **x86_64-linux**; aarch64-linux follows. x86_64-darwin is out of scope.
+The initial platforms are **aarch64-darwin**, **aarch64-linux**, and **x86_64-linux**. x86_64-darwin is out of scope.
 
 See [project requirements](docs/requirements.md) and [open issues](https://github.com/genebean/nixified-openvox/issues).
 
