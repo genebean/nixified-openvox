@@ -5,7 +5,7 @@
 - Model system dependency packaging on [Arch Linux's OpenVox package](https://archlinux.org/packages/extra/any/openvox/).
 - Compare component coverage with [upstream AIO definitions](https://github.com/OpenVoxProject/openvox/tree/main/packaging).
 - Provide the complete agent functionality without bundling a redundant Ruby runtime.
-- Support aarch64-darwin and x86_64-linux first; then aarch64-linux.
+- Support aarch64-darwin, aarch64-linux, and x86_64-linux from the first implementation milestone. aarch64-linux is required for Nix-enabled Apple containers used as development sandboxes.
 - Allow arbitrary compatible third-party gems, including ones absent from nixpkgs, through a declarative flake interface. Resolve and pin dependencies reproducibly without requiring users to write Nix packaging code.
 - Preserve conventional Puppet CLI, config, SSL, state, and /etc/puppetlabs and /opt/puppetlabs behavior where needed. Determine exact compatibility paths through tests.
 
