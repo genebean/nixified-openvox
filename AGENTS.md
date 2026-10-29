@@ -8,7 +8,7 @@
 - Ask the repository owner before starting additional, unrequested work or changing project direction.
 - Prefer Nix-native dependencies over bundling upstream AIO runtimes.
 - Treat upstream AIO as a functional reference and Arch Linux packaging as the initial Nix-native reference.
-- Support aarch64-darwin and x86_64-linux first; do not add x86_64-darwin.
+- Treat aarch64-darwin, aarch64-linux, and x86_64-linux as initial targets with equal priority; do not add x86_64-darwin.
 - Preserve Puppet/OpenVox conventions where practical. Test compatibility rather than assuming path changes are harmless.
 - Third-party gems must be usable declaratively in flakes, including gems absent from nixpkgs, without requiring users to write derivations.
 - Distinguish packaged agent/Server/OpenBolt gem environments from Bundler-based Puppet module testing. Module development tooling belongs with Jig, not the initial agent work.
