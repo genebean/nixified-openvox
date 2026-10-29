@@ -1,5 +1,7 @@
 # Contributor and agent guidance
 
+- Use plain ASCII in prose, comments, commit messages, PRs, and documentation unless non-ASCII is genuinely required. In particular, avoid em dashes, curly apostrophes, and typographic quotation marks.
+
 - **Never commit to the default branch.** Use a topic branch and pull request for every change.
 - Keep PRs and documentation concise. Prefer small, reviewable changes and focused issues over walls of text.
 - Stay within the issue's scope; don't turn agent packaging work into Puppet module development.
